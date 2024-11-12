@@ -18,7 +18,7 @@ function validateForm(event) {
     errorMessage.textContent = '';
 
     console.log("Redirecionando para cadastro...");
-    setTimeout(() => window.location.href = "./Cadastro/cadastro.html", 100);
+    setTimeout(() => window.location.href = "cadastro.html", 100);
     return true;
 }
 
