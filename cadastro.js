@@ -40,11 +40,11 @@ class Produto {
             td_id.classList.add('center');
 
             let imgEdit = document.createElement('img');
-            imgEdit.src = '/Content/editar.png';
+            imgEdit.src = 'Content/editar.png';
             imgEdit.setAttribute("onclick", "produto.editar("+ this.arrayProdutos[i].id +")");
 
             let imgDelete = document.createElement('img');
-            imgDelete.src = '/Content/deletar.png';
+            imgDelete.src = 'Content/deletar.png';
             imgDelete.setAttribute("onclick", "produto.deletar("+ this.arrayProdutos[i].id +")");
 
             td_acoes.appendChild(imgEdit);
