@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="refresh" content="3">
+    Atualiza a pagina a cada 3 segundos.-->
+    
+    <link rel="stylesheet" href="/index_style.css">
+    <title>Login</title>
+</head>
+<body>   
+
+    <!-- Envia a entrada do usuario a um servidor. -->
+    <form onsubmit="return validateForm(event)">
+
+        <h1>Login</h1>
+
+        <div class="container">
+
+            <input type="email" id="email" name="email" required>
+
+            <label>E-mail</label>
+        </div>
+
+        <div class="container">
+                
+            <input type="password" id="password" name="password" required>
+    
+            <label>Senha</label>
+        </div>
+        <button type="submit">Entrar</button>
+        <p id="error-message"></p>
+
+        <a href="#">Não consegue entrar?</a>
+        <a href="#">Criar conta</a>
+    </form>
+    <script src="/index.js"></script>
+</body>
+</html>

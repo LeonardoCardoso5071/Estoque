@@ -1,0 +1,107 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif
+}
+
+body {
+    background-color: #00acd7;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 50px 40px;
+    box-shadow: 5px 5px 15px;
+}
+
+
+form h1 {
+    text-align: center;
+    margin: 48px 0;
+    font-size: 36px;
+    color: #111;
+}
+
+.container {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.container input {
+    width: 100%;
+    height: 70px;
+    border: none;
+    background-color: #ededed;
+    border-radius: 4px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 60px 0 10px;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #9d9d9d;
+    position: absolute;
+    line-height: 70px;
+    top: 0;
+    left: 20px;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+
+.container input:focus~label,
+.container input:valid~label {
+    top: -16px;
+    left: 10px;
+    color: #00acd7;
+}
+
+button {
+    display: block;
+    float: right;
+    width: 50%;
+    height: 70px;
+    margin: 40px auto;
+    background-color: #00acd7;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+form a {
+    clear: both;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+form a:hover {
+    color: #00acd7;
+}
