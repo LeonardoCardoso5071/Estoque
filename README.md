@@ -8,3 +8,5 @@ Ou apenas copie esse email e senha abaixo...
 <p>exemplo@hotmail.com<p>
 Exemplosenha@4589
 
+Link do site para acesso rápido:
+https://leonardocardoso5071.github.io/Estoque/
